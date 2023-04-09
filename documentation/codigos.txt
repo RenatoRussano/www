@@ -1,0 +1,92 @@
+HTML
+
+<label for="popup-toggle" class="popup-button">Abrir pop-up</label>
+
+<input type="checkbox" id="popup-toggle" class="popup-toggle">
+
+<div class="popup">
+  <label for="popup-toggle" class="close-button">X</label>
+  <h2>Título do Pop-up</h2>
+  <p>Conteúdo do Pop-up</p>
+</div>
+
+
+CSS
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+.popup-toggle:checked ~ .popup {
+  display: block;
+}
+
+.popup-button {
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+EXTRA
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+
+OUTRO
+
+<div class="container">
+  <span>Texto principal</span>
+  <span class="popup-text">Texto adicional</span>
+</div>
+
+.container {
+  position: relative;
+}
+
+.popup-text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.container:hover .popup-text {
+  display: block;
+}
+
+PASSAR MOUSE POR CIMA E APARECER UMA IMAGEM
+
+<p>Hover me for a message!</p>
+<span class="message">This is a message that appears when you hover over the text.</span>
+
+<style>
+  .message {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  p:hover + .message {
+    display: block;
+  }
+</style>
+

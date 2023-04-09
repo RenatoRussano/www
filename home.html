@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Porto Bike & FIAP - Home</title>
+
+    <link rel="shortcut icon" href="logo/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css"  href="css/style.css" />
+
+</head>
+
+<body> 
+
+<header>
+
+    <nav class="menuporto">
+
+        <img src="logo/porto_2.png" alt="logo" class="logo">
+        <img src="icon/chat.png" alt="" class="chat">
+        <img src="icon/user.png" alt="" class="person"></a>
+        <div class="entrar"> Entrar </div>
+
+        <ul class="menu">
+
+            <li> <a href="home.html"> Home </a> </li>
+            <li> <a href="equipe.html"> Equipe </a> </li>
+            <li> <a href="info.html"> Informações </a> </li>
+            <li> <a href="projeto.html"> Projeto </a> </li>
+                <li> <a href="#"> Disciplinas </a>
+
+                    <ul>
+
+                        <li> <a href="pages/ai.html"> AI & Chatbot </a> </li>
+                        <li> <a href="pages/data.html"> Building relational database </a> </li>
+                        <li> <a href="pages/computional.html"> Computional thinkin using python </a> </li>
+                        <li> <a href="pages/domain.html"> Domain driven design </a> </li>
+                        <li> <a href="pages/responsive.html"> Responsive web development </a> </li>
+                        <li> <a href="pages/software.html"> Software design & Total experience </a> </li>
+
+                    </ul>
+
+                </li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+<h5 class="raiz"> / index / home / </h5>
+
+    <div class="conteudo">
+
+        <article> 
+
+            <h1 class="titulo"> Proposta de projeto </h1>
+
+            <section> 
+
+                Simplificar e agilizar todo o processo de contratação e gerenciamento de seguros para ciclistas da Porto Seguro. <br><br>
+                A tecnologia em desenvolvimento de seguros de bicicleta inclui a criação de uma plataforma online, web e mobile, integrada com os sistemas da 
+                Porto Seguro, onde os ciclistas podem adquirir seguros com facilidade e a rapidez, além de fornecer funcionalidades adicionais, 
+                como o gerenciamento de apólices, acompanhamento de sinistros, avaliação de riscos, financeiro e suporte ao ciclista.
+                <br><br><br>
+
+                Nossa proposta visa trabalhar através do reconhecimento de imagem as inúmeras possibilidades de produtos (bikes) analisados. 
+                A IA fará o reconhecimento de documentos, do indivíduo e do produto, neste caso a Bike.<br><br>
+
+                Essa IA será responsável por comparar se o produto descrito na nota fiscal, corresponde com o produto fotografado como evidência e se 
+                ambos pertencem ao indivíduo.<br><br>
+
+                Parece simples, mas sabemos da complexidade do que estar por vir.<br><br>
+
+                <h2>Problemas e desafios do projeto</h2>
+
+                Elencando diretamente a construção do nosso protótipo, nosso primeiro desafio é acessar a informações sensíveis e estatísticas da Porto, 
+                tais como a quantia de seguros bike vigentes, ticket médio, principais modelos de bikes, tempo de assinatura de um seguro do usuário, erros 
+                sistêmicos, plataforma de acionamento ao seguro, contato com a central de atendimento.<br><br>
+
+                Todos estes pontos são relevantes para a construção da nossa proposta, pois precisamos identificar logo no começo quais são os pontos de dor 
+                da companhia, através da análise de big data.<br><br>
+
+                Como desafio temos a construção de um banco de dados para comparar as fotos tiradas pelos possíveis segurados com o produto previamente cadastrado. 
+                Devido ao tipo de negócio, não é possível neste momento, introduzir machine learning, pois o tempo de integração entre o aprendizado e a 
+                aplicabilidade não condiz com a nossa realidade.<br><br>
+
+                Em outras palavras, nós vamos trabalhar em parceria com fabricantes e revendedores de bikes, com a finalidade de criar um protótipo 
+                capaz de identificar as bikes mais comuns do mercado.<br><br>
+
+                Nossa proposta está baseada na experiência da jornada, independente da complexidade da produção, nosso objetivo é simples, mesmo que seja 
+                longo, o foco está no usuário.<br><br>
+
+                Por isso nosso projeto está embasado em 6 etapas simples.<br><br>
+
+                1.	O usuário que já está previamente cadastrado no sistema da Porto como um possível segurado é direcionado para o nosso sistema através de uma API.<br><br>
+
+                2.	Ao entrar em nosso sistema o usuário será convidado a tirar uma foto de um documento que contenha seu CPF ou RG, essa foto fará o 
+                    link através de uma API nas instituições governamentais (se permitidos) para preencher todos os dados do usuário no sistema*¹, 
+                    caso o usuário opte pelo não fornecimento deste acesso, ele terá que preencher manualmente os campos.<br><br>
+
+                3.	Após essa análise uma nova foto do usuário é solicitada, apenas para registro em nosso banco de dados.<br><br>
+
+                4.	Uma nova foto é solicitada, agora da NF da bike, que fará também o preenchimento dos dados no banco de dados e permitirá que a inteligência 
+                    artificial comece o seu trabalho.<br><br>
+
+                5.	Agora chegou o momento da foto da bike, com uma foto tirada o sistema vai identificar se o produto realmente é o descrito na nota fiscal, 
+                    se a nota fiscal está dentro dos parâmetros de normalidade como “preço, empresa, modelo, etc”, se estes itens estão saturados ou não.<br><br>
+
+                6.	Após essa etapa a IA identifica possíveis danos ao produto e caso encontre, solicita uma foto aproximada da peça ou local com dano.<br><br>
+
+                Estas etapas voltam para o sistema da Porto através de uma API reversa, cabendo a empresa aprová-lo ou não como segurado.<br><br>
+
+                <p class="notaderodape">*¹ Este item está em discussão, mas faz parte do nosso projeto inicial, por isso optamos em mantê-lo até o presente momento.</p><br><br>
+
+                <h2>Veja nossa proposta no Youtube</h2>
+
+                        <!-- Incorporado direto do Youtube -->
+
+                        <iframe width="674" height="430" src="https://www.youtube.com/embed/videoseries?list=PLnsC4Y30EcL6qKCS7_K1v3EJAIRzGY_uA" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                        picture-in-picture; web-share" allowfullscreen></iframe>         
+                
+                <br><br><br><br><br><br><br> <!-- Isso aqui é uma gambiarra -->
+
+            </section>
+
+        </article>
+
+    </div>
+
+    <aside>
+
+    <img src="images/docs/org_01.png" alt="" class="banner">   
+
+    </aside>
+
+</main>
+
+<footer>
+
+    <a href="https://www.fiap.com.br/"><img src="logo/fiap.webp" alt="" class="logofiap"></a>
+
+<br>
+
+The Unicorn Cake <br>
+Projeto Lila
+
+</footer>
+
+</body>
+
+</html>

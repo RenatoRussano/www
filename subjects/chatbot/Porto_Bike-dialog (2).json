@@ -1,0 +1,1118 @@
+{
+  "intents": [
+    {
+      "intent": "aguardo",
+      "examples": [
+        {
+          "text": "aguardando"
+        },
+        {
+          "text": "atendente"
+        },
+        {
+          "text": "cade?"
+        },
+        {
+          "text": "chama o atendente"
+        },
+        {
+          "text": "chame o atendente"
+        },
+        {
+          "text": "esperando"
+        },
+        {
+          "text": "espero"
+        },
+        {
+          "text": "me atenda"
+        },
+        {
+          "text": "me responda"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "que demora"
+        },
+        {
+          "text": "sigo no aguardo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ajuda",
+      "examples": [
+        {
+          "text": "ajuda"
+        },
+        {
+          "text": "ajude"
+        },
+        {
+          "text": "atendente humano"
+        },
+        {
+          "text": "me ajude"
+        },
+        {
+          "text": "não sei o que fazer"
+        },
+        {
+          "text": "por favor me ajude"
+        },
+        {
+          "text": "preciso de ajuda"
+        },
+        {
+          "text": "quero ajuda"
+        },
+        {
+          "text": "quero falar com uma pessoa"
+        },
+        {
+          "text": "socorro"
+        }
+      ],
+      "description": "Posso ajudar em algo mais?"
+    },
+    {
+      "intent": "atendente_humano",
+      "examples": [
+        {
+          "text": "Atendente humano"
+        },
+        {
+          "text": "falar com alguém"
+        },
+        {
+          "text": "Falar com uma pessoa"
+        },
+        {
+          "text": "falar com um atendente"
+        },
+        {
+          "text": "Quero falar com um atendente humano"
+        }
+      ],
+      "description": "IF: Pedir para falar com atendente humano"
+    },
+    {
+      "intent": "documento",
+      "examples": [
+        {
+          "text": "(2)"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "doc"
+        },
+        {
+          "text": "documentação"
+        },
+        {
+          "text": "documentações"
+        },
+        {
+          "text": "documento"
+        },
+        {
+          "text": "documentos"
+        },
+        {
+          "text": "erro na documentação"
+        },
+        {
+          "text": "erro no documento"
+        },
+        {
+          "text": "erro para enviar o documento"
+        },
+        {
+          "text": "estou sem o documento"
+        },
+        {
+          "text": "nao consigo enviar"
+        },
+        {
+          "text": "não consigo enviar a documentação"
+        },
+        {
+          "text": "nao consigo enviar o documento"
+        },
+        {
+          "text": "não consigo enviar o documento"
+        },
+        {
+          "text": "nao consigo mandar"
+        },
+        {
+          "text": "nao tenho o documento"
+        },
+        {
+          "text": "não tenho o documento"
+        },
+        {
+          "text": "problema na documentação"
+        },
+        {
+          "text": "problema no documento"
+        },
+        {
+          "text": "submeter a documentação"
+        }
+      ],
+      "description": "Problema na documentação?"
+    },
+    {
+      "intent": "erro",
+      "examples": [
+        {
+          "text": "algo esta errado"
+        },
+        {
+          "text": "erro"
+        },
+        {
+          "text": "Estou com problema"
+        },
+        {
+          "text": "estou com um erro"
+        },
+        {
+          "text": "não consigo"
+        },
+        {
+          "text": "não funciona"
+        },
+        {
+          "text": "problema"
+        },
+        {
+          "text": "tá dando um erro"
+        }
+      ],
+      "description": "Encontrou algum erro?"
+    },
+    {
+      "intent": "foto_bike",
+      "examples": [
+        {
+          "text": "(3)"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "a foto esta com erro"
+        },
+        {
+          "text": "bicicleta"
+        },
+        {
+          "text": "bike"
+        },
+        {
+          "text": "camera nao funciona"
+        },
+        {
+          "text": "camera nao reconhece"
+        },
+        {
+          "text": "camera quebrada"
+        },
+        {
+          "text": "carregar imagem da bicicleta"
+        },
+        {
+          "text": "celular não reconhece"
+        },
+        {
+          "text": "enviar imagem da bike"
+        },
+        {
+          "text": "foto da bicicleta"
+        },
+        {
+          "text": "Foto da bike"
+        },
+        {
+          "text": "foto do produto"
+        },
+        {
+          "text": "foto não reconhece a bicicleta"
+        },
+        {
+          "text": "foto não reconhece a bike"
+        },
+        {
+          "text": "imagem da bicicleta"
+        },
+        {
+          "text": "imagem da bike"
+        },
+        {
+          "text": "meu celular não reconhece a bike"
+        },
+        {
+          "text": "minha câmera não reconhece a bike"
+        },
+        {
+          "text": "nao carrega"
+        },
+        {
+          "text": "nao envia"
+        },
+        {
+          "text": "nao tenho como tirar foto"
+        },
+        {
+          "text": "não tenho foto da bike"
+        }
+      ],
+      "description": "Problema com a foto da bike?"
+    },
+    {
+      "intent": "foto_pessoal",
+      "examples": [
+        {
+          "text": "(4)"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "a câmera não me identifica"
+        },
+        {
+          "text": "a camera nao reconhece o meu rosto"
+        },
+        {
+          "text": "a foto esta com erro"
+        },
+        {
+          "text": "a foto nao carrega"
+        },
+        {
+          "text": "camera nao me identifica"
+        },
+        {
+          "text": "camera nao me reconhece"
+        },
+        {
+          "text": "câmera quebrada"
+        },
+        {
+          "text": "como envio a minha foto?"
+        },
+        {
+          "text": "como envio a minha imagem?"
+        },
+        {
+          "text": "erro na minha foto"
+        },
+        {
+          "text": "foto nao envia"
+        },
+        {
+          "text": "foto pessoal"
+        },
+        {
+          "text": "minha camera esta quebrada"
+        },
+        {
+          "text": "minha camera nao abre"
+        },
+        {
+          "text": "minha câmera não abre"
+        },
+        {
+          "text": "minha camera não funciona"
+        },
+        {
+          "text": "minha foto"
+        },
+        {
+          "text": "minha imagem"
+        },
+        {
+          "text": "não consigo enviar a minha foto"
+        },
+        {
+          "text": "nao consigo tirar foto"
+        },
+        {
+          "text": "não tenho câmera"
+        },
+        {
+          "text": "nao tenho como tirar foto"
+        },
+        {
+          "text": "pessoal"
+        },
+        {
+          "text": "problema na minha foto"
+        }
+      ],
+      "description": "Problema com a foto pessoal?"
+    },
+    {
+      "intent": "nenhum_erro",
+      "examples": [
+        {
+          "text": "(5)"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "esta certo"
+        },
+        {
+          "text": "nada"
+        },
+        {
+          "text": "nada errado"
+        },
+        {
+          "text": "nao tem"
+        },
+        {
+          "text": "não tem"
+        },
+        {
+          "text": "nao tem erro"
+        },
+        {
+          "text": "não tem erro"
+        },
+        {
+          "text": "não tem problema"
+        },
+        {
+          "text": "nao tenho problema"
+        },
+        {
+          "text": "nenhum"
+        },
+        {
+          "text": "nenhum erro"
+        },
+        {
+          "text": "sem erro"
+        },
+        {
+          "text": "sem problema"
+        },
+        {
+          "text": "tudo bem"
+        },
+        {
+          "text": "tudo certo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "nota_fiscal",
+      "examples": [
+        {
+          "text": "(1)"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "comprovante"
+        },
+        {
+          "text": "comprovante do profuto"
+        },
+        {
+          "text": "fiscal"
+        },
+        {
+          "text": "nao possuo"
+        },
+        {
+          "text": "não possuo a nota"
+        },
+        {
+          "text": "nao tenho"
+        },
+        {
+          "text": "nao tenho a nota"
+        },
+        {
+          "text": "nao tenho como mandar a imagem"
+        },
+        {
+          "text": "nao tenho como tirar foto"
+        },
+        {
+          "text": "não tenho nota"
+        },
+        {
+          "text": "NF"
+        },
+        {
+          "text": "nota do produto"
+        },
+        {
+          "text": "Nota fiscal"
+        },
+        {
+          "text": "nota fiscal do produto"
+        },
+        {
+          "text": "notinha"
+        },
+        {
+          "text": "problema na nota fiscal"
+        }
+      ],
+      "description": "Problema com a nota fiscal?"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "algo_mais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "sair"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "ajuda"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dados_sistema",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "ainda não",
+            "falta preencher",
+            "nao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "ja fiz",
+            "Preenchi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "erro_dados",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "(5)",
+            "5",
+            "nada",
+            "nada errado",
+            "nao",
+            "nenhum erro",
+            "nenhum problema",
+            "tudo certo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "estou com erro",
+            "estou com um problema",
+            "não funciona",
+            "tenho um erro",
+            "tenho um problema"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "falar_atendente",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "cancelar",
+            "inicio",
+            "voltar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "atendente",
+            "humano",
+            "quero"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "parte_do_problema",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Documentação",
+          "synonyms": [
+            "documentacao",
+            "documento",
+            "documentos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "foto da bike",
+          "synonyms": [
+            "foto da bicicleta",
+            "imagem da bicicleta",
+            "imagem da bike"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "foto pessoal",
+          "synonyms": [
+            "imagem pessoal",
+            "minha foto",
+            "minha imagem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NF",
+          "synonyms": [
+            "comprovante",
+            "nota",
+            "Nota fiscal"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja falar com um atendente humano?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1680729676234",
+      "conditions": "@algo_mais:Sim",
+      "dialog_node": "node_1_1680736607781",
+      "previous_sibling": "node_5_1680736561809"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva o problema com o documento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1680745016795"
+      },
+      "conditions": "#documento",
+      "dialog_node": "node_2_1680729553359",
+      "previous_sibling": "node_4_1680729524079"
+    },
+    {
+      "type": "standard",
+      "title": "#nota_fiscal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva o problema com a nota fiscal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1680745016795"
+      },
+      "conditions": "#nota_fiscal",
+      "dialog_node": "node_2_1680745754107",
+      "previous_sibling": "node_2_1680729553359"
+    },
+    {
+      "type": "standard",
+      "title": "algo_mais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Posso ajudar em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "conditions": "",
+      "dialog_node": "node_3_1680729676234",
+      "previous_sibling": "node_7_1680745016795"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva o problema com a foto pessoal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1680745016795"
+      },
+      "conditions": "#foto_pessoal",
+      "dialog_node": "node_4_1680729524079",
+      "previous_sibling": "node_8_1680729496991"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Um atendente humano entrará em contato em breve. Aguarde."
+              },
+              {
+                "text": " Seu atendente humano já está a caminho. Aguarde um pouco."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1680736607781",
+      "conditions": "@falar_atendente:Sim",
+      "dialog_node": "node_4_1680736665452"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, digite em qual parte está o erro:\n(1) Nota fiscal, \n(2) Documentos, \n(3) Foto da bike, \n(4) Foto pessoal.\n(5) Nenhum erro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1680727431492",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@dados_sistema:Sim",
+      "dialog_node": "node_5_1680729048443",
+      "previous_sibling": "response_9_1680745265925"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Preencha os dados do sistema primeiro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1680727431492",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1680725639268"
+      },
+      "conditions": "@dados_sistema:Não",
+      "dialog_node": "node_5_1680729114520",
+      "previous_sibling": "node_5_1680729048443"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem. Atendimento encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1680729676234",
+      "conditions": "@algo_mais:Não",
+      "dialog_node": "node_5_1680736561809"
+    },
+    {
+      "type": "standard",
+      "title": "Preencheu dados do sistema?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você já preencheu os dados do sistema?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1680727431492",
+      "previous_sibling": "node_8_1680725639268"
+    },
+    {
+      "type": "standard",
+      "title": "#nenhum_erro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Está bem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1680729676234"
+      },
+      "conditions": "#nenhum_erro || @erro_dados:Não",
+      "dialog_node": "node_6_1680876278637",
+      "previous_sibling": "node_2_1680745754107"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero ter ajudado. Atendimento encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1680736607781",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1680725639268"
+      },
+      "conditions": "@falar_atendente:Não",
+      "dialog_node": "node_7_1680736739716",
+      "previous_sibling": "node_4_1680736665452"
+    },
+    {
+      "type": "standard",
+      "title": "encaminhamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encaminhamos o seu caso para o setor responsável. Entraremos em contato em breve."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1680729676234"
+      },
+      "conditions": "#documento || #foto_pessoal || #foto_bike || #nota_fiscal",
+      "dialog_node": "node_7_1680745016795",
+      "previous_sibling": "node_6_1680876278637"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Meu nome é Lila, sou a assistente virtual do Seguro Bike da Porto Seguro. Estou aqui para te ajudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1680727431492"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_8_1680725639268"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva o problema com a foto da bike."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1680745016795"
+      },
+      "conditions": "#foto_bike",
+      "dialog_node": "node_8_1680729496991",
+      "previous_sibling": "response_8_1680745387823"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "disabled": true,
+      "conditions": "#foto_pessoal",
+      "dialog_node": "response_4_1680745358385",
+      "previous_sibling": "response_8_1680745331895"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que parte está com erro? Nota fiscal, Documentos, Foto da bike, Foto pessoal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "disabled": true,
+      "conditions": "#nota_fiscal",
+      "dialog_node": "response_8_1680745331895"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "disabled": true,
+      "conditions": "#documento",
+      "dialog_node": "response_8_1680745387823",
+      "previous_sibling": "response_9_1680745368316"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você já preencheu os dados do sistema?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1680727431492",
+      "disabled": true,
+      "dialog_node": "response_9_1680745265925"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1680729048443",
+      "disabled": true,
+      "conditions": "#foto_bike",
+      "dialog_node": "response_9_1680745368316",
+      "previous_sibling": "response_4_1680745358385"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Sim"
+    },
+    {
+      "text": "true"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Porto_Bike-dialog"
+}

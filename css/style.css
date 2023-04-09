@@ -1,0 +1,273 @@
+body {
+    background-color: #252831;
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/background/background_transp.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* 
+Azul escuro #00314c 
+Azul claro #00a1fc
+Contraste #18DE6F
+Avermelhado #fc0041
+Background #252831
+*/
+
+.menuporto {
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    width: auto;
+    height: 25px;
+    left: 20px;
+    padding-top: 12px;
+}
+
+/* Começo do menu showdown*/
+
+.menu {
+    list-style:none;
+    float:left;
+    font-size: 16px;
+    padding-left: 180px;
+    padding-top: 0;
+}
+
+.menu li {
+    position:relative;
+    float:left;
+}
+
+.menu li a {
+    color: #00a1fc ; 
+    text-decoration:none; 
+    padding: 0px 20px;
+    display:block;
+}
+
+.menu li a:hover {
+    color:#00314c;
+    border-radius: 0;
+    size: 12px;
+}
+
+.menu li ul {
+    position:absolute;
+    padding-left: 1px;
+    padding-top: 20px;
+    top:20px;
+    left: 0;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul {
+    display:block;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu li ul li {
+    display:block;
+    width:330px;
+    height: 30px;
+    padding: 1px;
+}
+
+/* Fim do menu showdown*/
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 150;
+}
+
+footer {
+    background-color: rgb(19, 19, 19);
+    bottom: 0;
+    color: rgb(85, 85, 85);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;   
+}
+
+.logofiap {
+    width: 70px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 50px;
+    left: 5%;
+    top: 100px;
+    color: aqua;
+}
+
+.titulo2 {
+    position: absolute;
+    margin-top: 50px;
+    left: 5%;
+    top: 100px;
+    color: aqua;
+}
+
+.raiz {
+    position: absolute;
+    left: 5%;
+    top: 60px;
+    color: rgb(97, 97, 97);
+}
+
+section {
+    position: absolute;
+    margin-top: 50px;
+    width: 35%;
+    color: white;
+    left: 5%;
+    top: 150px;
+    font-size: 14px;
+    right: 55%;
+    text-align: justify;
+}
+
+.banner {
+    position: absolute;
+    left: 45%;
+    top: 200px;
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner2 {
+    position: absolute;
+    left: 45%;
+    top: 200px;
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner3 {
+    position: absolute;
+    left: 45%;
+    top: 200px;
+    width: 900px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.chat {
+    position: absolute;
+    padding-left: 97%;
+    padding-top: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.person {
+    position: absolute;
+    padding-left: 94%;
+    padding-top: 12px;
+    width: 20px;
+    height: auto;
+}
+
+.person:hover {
+    background-color: rgb(255, 255, 255);    
+}
+
+.entrar {
+    position: absolute;
+    padding-left:93.8%;
+    padding-top: 33px;
+    font-size: 10px;
+}
+
+.contentpg {
+
+    position: absolute;
+
+}
+
+/* Teste para alterar o estilo da barra de rolagem */
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: auto;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(34, 34, 34);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #024f7c;
+    border-radius: 5px;
+  }
+
+.notaderodape {
+    color: #00a1fc;
+    font-size: 10px;
+}
+
+.equipe {
+    position: absolute;
+    padding-left: 54%;
+    padding-top: 20%;
+    width: 20px;
+    height: auto;
+    color: #00a1fc;
+}
+
+.tabela {
+    color: aliceblue;
+    position: absolute;
+    padding-left: 2%;
+    padding-top: 20%;
+    width: 1300px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.perfil {
+    border-radius: 500px;
+    width: 150px;
+    height: auto;
+}
+
+.icones {
+    width: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: auto;
+}
+
+.alerta {
+    color: #fc0041;
+}
+
+.check {
+width: 10px;
+}
+
+.nocheck {
+width: 10px;    
+}

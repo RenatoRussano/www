@@ -1,0 +1,63 @@
+A pessoa recebe assim:
+
+1. Ajuda
+2. Suporte
+3. F.A.Q.
+4. Falar com um atendente
+5. Sair
+
+Quando ela escolhe uma opção, as guias respectivas abaixo se abrem.
+Supondo que a pessoa escolha a opção número 1, um novo input aparece com as opções da guia 1 acrescentando da opção SAIR.
+
+Exemplo:
+
+1. Ajuda
+	1.a. Ajuda com a documentação
+	1.b. Ajuda com a nota fiscal
+	1.c. Ajuda com a foto da bike
+	1.d. Ajuda de outros itens
+
+5. Sair
+
+if opção, apresenta um print genérico (Você clicou em 1.a. Ajuda com a documentação, a resposta do chat bot é este exemplo.
+
+elif 
+1. Ajuda
+2. Suporte
+3. F.A.Q.
+4. Falar com um atendente
+5. Sair
+
+=====================================================
+
+1. Ajuda
+	1.a. Ajuda com a documentação
+	1.b. Ajuda com a nota fiscal
+	1.c. Ajuda com a foto da bike
+	1.d. Ajuda de outros itens
+
+2. Suporte
+	2.a. Problema com envio da documentação
+	2.b. Problema com envio da NF
+	2.c. Problema com envio da proposta
+	2.d. Não consigo concluir a tarefa
+	2.e. Problema com outros itens
+
+3. F.A.Q.
+	3.a. Quais documentos são aceitos
+	3.b. Como o sistema identifica minha bike
+	3.c. O que acontece se o sistema não identificar a minha bike
+	3.e. Como funciona o sistema
+
+4. Falar com um atendente
+	4.a. Deseja falar com um atendente?
+		- [SIM] or [NÃO]
+		- não encerra o atendimento
+		- sim transfere para um numero de whatsapp
+
+5. Sair
+	5.a. Encerra o programa
+
+=====================================================
+
+FAZER ANALISE DE CHATBOT DA VIVO, CLARO E UM TERCEIRO ITEM

@@ -1,0 +1,89 @@
+/* 
+Azul escuro #00314c 
+Azul claro #00a1fc
+Contraste #18DE6F
+Avermelhado #fc0041
+Background #252831
+*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: 'roboto';
+    background-image: url(../images/background/background_transp_02.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.loading {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.conteudo {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 35%;
+    left: 45%;
+}
+
+.botao {
+    top: 160px;
+    width: 150px;
+    height: 32px;
+    position: absolute;
+    background-color: #ffffff ;
+    color: #00a1fc;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.botao:hover {
+    top: 160px;
+    width: 150px;
+    height: 32px;
+    position: absolute;
+    background-color: #00a1fc;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer {
+    background-color: rgb(19, 19, 19);
+    bottom: 0;
+    color: rgb(85, 85, 85);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;   
+}
+
+.logofiap {
+    width: 70px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+.notify {
+
+    position: absolute;
+    text-align: right;
+    top: 85%;
+    left: 82%;
+    font-size: 10px;
+}
