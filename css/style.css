@@ -127,10 +127,25 @@ footer {
     color: aqua;
 }
 
+.titulo3 {
+    position: absolute;
+    margin-top: 50px;
+    left: 32%;
+    top: 100px;
+    color: aqua;
+}
+
 .raiz {
     position: absolute;
     left: 5%;
     top: 60px;
+    color: rgb(97, 97, 97);
+}
+
+.raiz2 {
+    position: absolute;
+    left: 0%;
+    top: 0px;
     color: rgb(97, 97, 97);
 }
 
@@ -146,11 +161,30 @@ section {
     text-align: justify;
 }
 
+.section2 {
+    position: absolute;
+    margin-top: 50px;
+    width: 35%;
+    color: white;
+    left: 32%;
+    top: 150px;
+    font-size: 14px;
+    right: 55%;
+    text-align: justify;
+}
+
 .banner {
     position: absolute;
     left: 45%;
     top: 200px;
     width: 1000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagemdobanner {
+    position: absolute;
+    width:95%;
     height: auto;
     border-radius: 10px;
 }
@@ -171,6 +205,20 @@ section {
     width: 900px;
     height: auto;
     border-radius: 10px;
+}
+
+.banner4 {
+    width: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner5 {
+    position: absolute;
+    left: 42%;
+    top: 200px;
+    width: 500px;
+    height: auto;
 }
 
 .chat {
@@ -265,9 +313,127 @@ body::-webkit-scrollbar {
 }
 
 .check {
-width: 10px;
+    width: 10px;
 }
 
 .nocheck {
-width: 10px;    
+    width: 10px;    
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-left: 0px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-right: 0px; 
+    padding-left: 0px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.button-container {
+    text-align: right;
+}
+  
+input[type="submit"] {
+    background-color: #00a1fc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0075c2;
+}
+
+.imagensdisciplinas {
+    padding: 0 0;
+    position: absolute;
+    left: 45%;
+    top: 27%;
+    width: 1000px;
+    height: auto;
+}
+
+.camada1 {
+    width: 220px;
+    height: auto;
+}
+
+.camada2 {
+    width: 220px;
+    height: auto;
+}
+
+.camada3 {
+    width: 220px;
+    height: auto;
+}
+
+.camada4 {
+    width: 220px;
+    height: auto;
+}
+
+.link {
+    color: #00a1fc ; 
+    text-decoration:none; 
+    padding: 0px 00px;
+}
+
+.alinhar {
+    padding: 0 20px;
+}
+
+.alinhar2 {
+    padding: 0 30px;
+}
+
+.camada11 {
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    width: 1000px;
+    height: auto;
+}
+
+.camada12 {
+    position: absolute;
+    top: 750px;
+    left: 45%;
+    width: 1000px;
+    height: auto;
+}
+
+.camada13 {
+    position: absolute;
+    top: 1200px;
+    left: 45%;
+    width: 1px;
+    height: 250px;
+}
+
+.icondownload {
+    width: 10px;
+    height: auto;
 }
